@@ -4,6 +4,7 @@ import version from "vite-plugin-package-version";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/minanh.github.io/',
   plugins: [react(), version()],
   build: {
     rollupOptions: {
